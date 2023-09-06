@@ -1,0 +1,20 @@
+[tool.poetry]
+authors = ["over80 <over80s@gmail.com>"]
+description = ""
+name = "oak_capture_with_depth_mask"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.8.0"
+numpy = "^1.25.2"
+opencv-contrib-python = "^4.8.0"
+depthai = "^2.22.0"
+sounddevice = "^0.4.6"
+
+[tool.poetry.dev-dependencies]
+mypy = "^1.5.1"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
